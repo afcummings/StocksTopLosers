@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "StockLosers", "StockLosers\StockLosers.pyproj", "{CA8909C9-4ECB-4634-A4A7-B354F21AC710}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{97D9CF2E-0BB2-4F93-A5CE-23D16308A32D}"
+	ProjectSection(SolutionItems) = preProject
+		stocks.html = stocks.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{C24E11EE-8284-4EB1-B95D-BB07A52CD9C4}"
+	ProjectSection(SolutionItems) = preProject
+		app.js = app.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA8909C9-4ECB-4634-A4A7-B354F21AC710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8909C9-4ECB-4634-A4A7-B354F21AC710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C24E11EE-8284-4EB1-B95D-BB07A52CD9C4} = {97D9CF2E-0BB2-4F93-A5CE-23D16308A32D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48FCCC10-0EBB-4A3C-AE4D-114246E55658}
+	EndGlobalSection
+EndGlobal
